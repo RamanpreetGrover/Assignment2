@@ -4,7 +4,7 @@
     font-style: normal;
   }
 body {
-    background-image: url(wallpaper-csgo-61.webp);
+    background-image: url(wallpaper-csgo-61.webp);/* Setting the background image to the main page*/
     background-size: cover;
     background-repeat: no-repeat;
     color: #333;
@@ -27,26 +27,26 @@ body, h1, h2, p, ul, li, form, input, textarea, button {
 }
 
 body {
-    font-family: Allerta Stencil;
-    background-color: #f0f0f0;
+    font-family: Allerta Stencil;/* Setting the default font family for the page */
+    background-color: #f0f0f0; /* Styling the body background color */
     color: #333;
     font-size: 200%;
 }
 
 header {
-    background-color: transparent;
-    color: #fff;
+    background-color: transparent; /* Styling the header background color */
+    color: #fff; /* Setting text color to white */
     text-align: left;
-    padding: 10px 0;
+    padding: 10px 0; /* Adding padding to the header */
 }
 
 nav ul {
     list-style: none;
-    text-align: center;
+    text-align: center; /* Centering the navigation links */
 }
 
 nav ul li {
-    display: inline;
+    display: inline; /* Displaying navigation items inline */
     margin: 0 10px;
 }
 
@@ -62,10 +62,10 @@ a:hover {
     transform:inherit;
   }
 footer {
-    background-color: transparent;
-    color: #fff;
+    background-color: transparent; /* Styling the footer background color */
+    color: #fff; /* Setting text color to white */
     text-align: center;
-    padding: 5px 0;
+    padding: 5px 0; /* Adding padding to the footer */
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -73,6 +73,7 @@ footer {
     font-size: 60%;
 }
 @media only screen and (max-width: 768px) {
+     /* Adjust styles for tablets and smaller devices */
     nav {
         display: block;
         text-align: center;
@@ -88,7 +89,8 @@ footer {
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px)  {
+    /* Adjust styles for mobile devices */
     h1 {
         font-size: 24px;
     }
