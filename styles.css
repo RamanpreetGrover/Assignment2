@@ -4,7 +4,7 @@
     font-style: normal;
   }
 body {
-    background-image: url(1.263584.jpg);
+    background-image: url(wallpaper-csgo-61.webp);
     background-size: cover;
     background-repeat: no-repeat;
     color: #333;
@@ -34,7 +34,7 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: transparent;
     color: #fff;
     text-align: left;
     padding: 10px 0;
@@ -55,14 +55,14 @@ nav a {
     color: #fff;
 }
 a:hover {
-    background-color: rgb(168, 95, 0);
+    background-color: grey;
     transition: ease-out;
     box-shadow: #f1f1f1;
     color: #f9f9f9;
     transform:inherit;
   }
 footer {
-    background-color: #000000;
+    background-color: transparent;
     color: #fff;
     text-align: center;
     padding: 5px 0;
